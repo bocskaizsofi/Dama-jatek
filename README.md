@@ -46,7 +46,7 @@ döntetlenre és vereségre a játékosok nem kapnak pontot (negatívat sem).
 
 Fordítás
 A projekt fordítható gyökérmappájában kiadva a következő parancsot: 
-javac -d bin src/board/*.java src/game/*.java src/gamestart/*.java src/leaderboard/*.java src/menu/*.java
+javac -d bin src/board/*.java src/game/*.java src/gamestart/*.java src/leaderboard/*.java src/menu/*.java 
 
 Futtatás
 A főosztály a menu csomagban található, neve: Menu.
