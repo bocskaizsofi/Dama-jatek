@@ -1,7 +1,7 @@
 A Dámajáték egy grafikus kezelőfelületű társasjáték, amivel a dáma angol/amerikai variánsát 
 lehet játszani. A játék a menu.Menu fájlból (a főosztályból) indítható. 
 
-Az angol/amerikai dáma szabályai 
+Az angol/amerikai dáma szabályai
 A játékot 2 fő játszhatja egy 8x8-as sakktáblán, aminek a bal alsó sarka sötét mező. 
 Minden játékosnak 12 bábuja van, ezek kezdetben a játékosokhoz közel eső első 3 sor sötét 
 mezőin helyezkednek el. 
@@ -19,7 +19,7 @@ Döntetlen is kialakulhat, ha a játékosok közösen megegyeznek, ha ugyanaz a 
 ismétlődött meg több, mint 3-szor egy játékos által vagy ha az elmúlt 40 lépésben nem történt 
 sem ugrás, sem dámává válás. 
 
-A játék menete 
+A játék menete
 A játék kezdete előtt a gép kisorsolja véletlenszerűen a színeket (sötét és világos) és a 
 játékszabály alapján a sötét játékos kezd. Játék közben látható a játékosok neve, bábuinak 
 száma, illetve, hogy éppen melyik játékosnak kell lépnie.  
@@ -78,14 +78,14 @@ lehet szüneteltetni és később újra folytatni, de végig is lehet játszani.
 visszatérés itt sem menti a játékállást. Ha nincsen félbehagyott játék, ezt egy ablak jelzi, és 
 „OK” gombbal visszatérhet a felhasználó a menübe.  
 
-Ranglista 
+Ranglista
 A ranglistán megjelennek a részt vevő játékosok helyezésükkel és pontszámaikkal 
 (győzelmeik száma). Azok a játékosok is láthatóak, akik nem értek el győzelmet. A ranglista 
 helyezések szerint csökkenő, azaz győzelem száma szerint növekvő. Ha két játékos 
 ugyanannyi győzelemmel rendelkezik, azonos helyezést értek el a ranglistán. Egy helyezésen 
 belül a játékosok névsorban jelennek meg. 
 
-Játékszabály: 
+Játékszabály
 A menüben a Játékszabály választása után megjelenik a Dáma játékszabályának részletes 
 leírása. 
 
@@ -96,5 +96,5 @@ A játékban használt fájlok:
 - white.png: a világos bábut ábrázoló kép 
 - dark.png: a fekete bábut ábrázoló kép 
 - darkQueen.png: a fekete koronázott bábut ábrázoló kép 
-- whiteQueen.png: a világos koronázott bábut ábrázoló kép 
+- whiteQueen.png: a világos koronázott bábut ábrázoló kép
 A fenti fájlokat a felhasználó nem módosíthatja.
