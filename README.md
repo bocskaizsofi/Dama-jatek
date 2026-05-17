@@ -46,12 +46,11 @@ döntetlenre és vereségre a játékosok nem kapnak pontot (negatívat sem).
 
 Fordítás
 A projekt fordítható gyökérmappájában kiadva a következő parancsot: 
-javac -d bin src/board/*.java src/game/*.java src/gamestart/*.java src/leaderboard/*.java src/menu/*.java
+javac -d bin src\board\*.java src\game\*.java src\gamestart\*.java src\leaderboard\*.java src\menu\*.java
 
 Futtatás
 A főosztály a menu csomagban található, neve: Menu.
-A gyökérmappából a következő paranccsal futtatható:
-java -cp bin menu.Menu
+A gyökérmappából a következő paranccsal futtatható: java -cp bin menu.Menu
 
 A játék használata 
 A menüben a felhasználó 4 lehetőség közül választhat kattintással: 
