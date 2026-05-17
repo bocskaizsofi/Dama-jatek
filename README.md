@@ -1,6 +1,7 @@
 A Dámajáték egy grafikus kezelőfelületű társasjáték, amivel a dáma angol/amerikai variánsát 
 lehet játszani. A játék a menu.Menu fájlból (a főosztályból) indítható. 
 
+
 Az angol/amerikai dáma szabályai
 
 A játékot 2 fő játszhatja egy 8x8-as sakktáblán, aminek a bal alsó sarka sötét mező. 
@@ -19,6 +20,7 @@ végrehajtani.
 Döntetlen is kialakulhat, ha a játékosok közösen megegyeznek, ha ugyanaz a lépés 
 ismétlődött meg több, mint 3-szor egy játékos által vagy ha az elmúlt 40 lépésben nem történt 
 sem ugrás, sem dámává válás. 
+
 
 A játék menete
 
@@ -46,15 +48,18 @@ visszatérhetünk a menübe. Ha egy folytatott játék ért véget, ezek után m
 folytatható játék. Játék végén a ranglista automatikusan frissül, a győzelem 1 pontot ér, 
 döntetlenre és vereségre a játékosok nem kapnak pontot (negatívat sem). 
 
+
 Fordítás
 
 A projekt fordítható gyökérmappájában kiadva a következő parancsot: 
 javac -d bin src\board\*.java src\game\*.java src\gamestart\*.java src\leaderboard\*.java src\menu\*.java
 
+
 Futtatás
 
 A főosztály a menu csomagban található, neve: Menu.
 A gyökérmappából a következő paranccsal futtatható: java -cp bin menu.Menu
+
 
 A játék használata
 
@@ -68,6 +73,7 @@ A játékban minden nézetből vissza lehet térni a menübe az ablak bal felső
 található „Menü” feliratú gombbal. Fontos azonban tudni, hogy ilyen esetben az aktuális játék 
 állása nem mentődik el, ezt a játékos külön gombbal tudja kérni (részletesebben a Játék 
 menete pont alatt). 
+
 
 Új játék indítása 
 
@@ -86,6 +92,7 @@ lehet szüneteltetni és később újra folytatni, de végig is lehet játszani.
 visszatérés itt sem menti a játékállást. Ha nincsen félbehagyott játék, ezt egy ablak jelzi, és 
 „OK” gombbal visszatérhet a felhasználó a menübe.  
 
+
 Ranglista
 
 A ranglistán megjelennek a részt vevő játékosok helyezésükkel és pontszámaikkal 
@@ -94,10 +101,12 @@ helyezések szerint csökkenő, azaz győzelem száma szerint növekvő. Ha két
 ugyanannyi győzelemmel rendelkezik, azonos helyezést értek el a ranglistán. Egy helyezésen 
 belül a játékosok névsorban jelennek meg. 
 
+
 Játékszabály
 
 A menüben a Játékszabály választása után megjelenik a Dáma játékszabályának részletes 
 leírása. 
+
 
 A játékban használt fájlok: 
 
