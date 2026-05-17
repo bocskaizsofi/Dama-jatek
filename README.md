@@ -2,6 +2,7 @@ A Dámajáték egy grafikus kezelőfelületű társasjáték, amivel a dáma ang
 lehet játszani. A játék a menu.Menu fájlból (a főosztályból) indítható. 
 
 Az angol/amerikai dáma szabályai
+
 A játékot 2 fő játszhatja egy 8x8-as sakktáblán, aminek a bal alsó sarka sötét mező. 
 Minden játékosnak 12 bábuja van, ezek kezdetben a játékosokhoz közel eső első 3 sor sötét 
 mezőin helyezkednek el. 
@@ -20,6 +21,7 @@ ismétlődött meg több, mint 3-szor egy játékos által vagy ha az elmúlt 40
 sem ugrás, sem dámává válás. 
 
 A játék menete
+
 A játék kezdete előtt a gép kisorsolja véletlenszerűen a színeket (sötét és világos) és a 
 játékszabály alapján a sötét játékos kezd. Játék közben látható a játékosok neve, bábuinak 
 száma, illetve, hogy éppen melyik játékosnak kell lépnie.  
@@ -45,29 +47,35 @@ folytatható játék. Játék végén a ranglista automatikusan frissül, a győ
 döntetlenre és vereségre a játékosok nem kapnak pontot (negatívat sem). 
 
 Fordítás
+
 A projekt fordítható gyökérmappájában kiadva a következő parancsot: 
 javac -d bin src\board\*.java src\game\*.java src\gamestart\*.java src\leaderboard\*.java src\menu\*.java
 
 Futtatás
+
 A főosztály a menu csomagban található, neve: Menu.
 A gyökérmappából a következő paranccsal futtatható: java -cp bin menu.Menu
 
-A játék használata 
+A játék használata
+
 A menüben a felhasználó 4 lehetőség közül választhat kattintással: 
 - Új játék indítása 
 - Előző játék folytatása 
 - Ranglista 
-- Játékszabály 
+- Játékszabály
+
 A játékban minden nézetből vissza lehet térni a menübe az ablak bal felső sarkában 
 található „Menü” feliratú gombbal. Fontos azonban tudni, hogy ilyen esetben az aktuális játék 
 állása nem mentődik el, ezt a játékos külön gombbal tudja kérni (részletesebben a Játék 
 menete pont alatt). 
 
 Új játék indítása 
+
 Új játék indításakor legördülő listából választható 3 játékmód: 
 - Gép-Gép 
 - Játékos-Gép 
-- Játékos-Játékos 
+- Játékos-Játékos
+
 Az „OK” gomb megnyomásával lehet tovább lépni, ekkor Gép-Gép mód esetén már indul 
 is a játék, ha van emberi játékos, a következő lépés a nevének megadása. A játékosok neveit 
 ki lehet választani a korábban játszott játékosok listájából, de új nevet is be lehet gépelni. 
@@ -79,6 +87,7 @@ visszatérés itt sem menti a játékállást. Ha nincsen félbehagyott játék,
 „OK” gombbal visszatérhet a felhasználó a menübe.  
 
 Ranglista
+
 A ranglistán megjelennek a részt vevő játékosok helyezésükkel és pontszámaikkal 
 (győzelmeik száma). Azok a játékosok is láthatóak, akik nem értek el győzelmet. A ranglista 
 helyezések szerint csökkenő, azaz győzelem száma szerint növekvő. Ha két játékos 
@@ -86,10 +95,12 @@ ugyanannyi győzelemmel rendelkezik, azonos helyezést értek el a ranglistán. 
 belül a játékosok névsorban jelennek meg. 
 
 Játékszabály
+
 A menüben a Játékszabály választása után megjelenik a Dáma játékszabályának részletes 
 leírása. 
 
 A játékban használt fájlok: 
+
 - scoreboard.txt: bináris fájl, amiben a játék a ranglistát rögzíti 
 - games.txt: bináris fájl, amibe a játék a félbehagyott állapotot menti 
 - dark.png: a fekete bábut ábrázoló kép 
@@ -97,4 +108,5 @@ A játékban használt fájlok:
 - dark.png: a fekete bábut ábrázoló kép 
 - darkQueen.png: a fekete koronázott bábut ábrázoló kép 
 - whiteQueen.png: a világos koronázott bábut ábrázoló kép
+
 A fenti fájlokat a felhasználó nem módosíthatja.
